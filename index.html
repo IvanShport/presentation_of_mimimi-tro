@@ -6,200 +6,136 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Mimimi-tro</h1>
+		<p>TechnoKek</p>
 	</header>
 
-	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+	<section class="slide white" id="cover">
+		<h2>Mimimi-tro</h2>
+		<p>TechnoKek <a href="https://github.com/TehnoKek">(GitHub)</a></p>
 		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
+			<img class="cover" src="pictures/pink-gradient-white-linea.png">
 		</figure>
-		<style>
-			#cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
-			#cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-				#cover p a {
-					color:#FFF;
-					}
-		</style>
 	</section>
 
-	<section class="slide">
-		<h2>Shower key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Modular and extensible</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+	<section class="slide" id="2">
+		<h2>Что это?</h2>
+		<div class="next">
+			<p>Mimimi-tro - это игра про метрополитен и котиков )</p>
+			<img id = "cover_cat" src="pictures/cat2.png">
+			<img id = "cover_metro" src="pictures/logo_mos_metro.png">
+		</div>
 	</section>
 
-	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+	<section class="slide" id="3">
+		<h2>Почему?</h2>
+		<figure id="bad_metro">
+			<img class="next" src="pictures/bad.png" width="250px">
+			<figcaption class="next">Нагруженное метро</figcaption>
+		</figure>
+		<figure id="good_metro">
+			<img class="next" src="pictures/good.png" width="250px">
+			<figcaption class="next">Сбалансированное метро</figcaption>
+		</figure>
 	</section>
 
-	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+	<section class="slide" id="4">
+		<h2>Вывод: </h2>
+		<p>Это очень интересно из-за необходимости проявлять свои логические и стратегические навыки. А также позволяет оказаться на месте архитектора метрополитена.</p>
+		<p>И самое главное: игра позволяет весело убить время.</p>
 	</section>
 
-	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
+	<section class="slide" id="5">
+		<h2>Каковы в ней правила?</h2>
+		<p>Необходимо построть максимально распределенную систему метро, избегая перегрузки какой-либо станции.</p>
+		<div class="next">	
+			<div style="float: left;">
+				<p>Случайно генерируемые элементы</p>
 				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
+					<li>Новые станции</li>
+					<li>Пассажиры (котики)</li>
 				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
+			</div>
+			<div style="float: right;">
+				<p>Расходуемые элементы</p>
+				<ul>
+					<li>Новые поезда</li>
+					<li>Новые пути</li>
+				</ul>
+			</div>
+		</div>		
+		
 	</section>
 
-	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
+	<section class="slide" id="6">
+		<h2>Какова цель игры?</h2>
+		<p>Набирать как можно больше очков и бить рекорды.<p>
+		<div class="next">
+			<p><b>А выиграть в ней нельзя!</b></p>
+			<img id="img_6" src="pictures/cool.jpg">
+		</div>	
 	</section>
 
-	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
+	<section class="slide" id="7">
+		<div align="center">
+			<h2 align="center">Техническая часть</h2>
+			<img id="techn" src="pictures/metro.jpg">
+		</div>	
 	</section>
 
-	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
+	<section class="slide" id="8">
+		<h2>Backend</h2>
+		<ul>
+			<li><img src="pictures/spring.jpg" style="float: right; width: 100px;">Java</li>
+			<li><img src="pictures/java.png" style="float: right; width: 150px;">Spring framework</li>
+			<li><img src="pictures/postgre.png" style="float: right; width: 150px;">Maven</li>
+			<li><img src="pictures/maven.jpeg" style="float: right; width: 100px;">PostgreSQL</li>
+
+		</ul>
+		
 	</section>
 
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
-		<style>
-			#picture h2 {
-				color:#FFF;
-				}
-		</style>
+	<section class="slide" id="9">
+		<h2>Frontend</h2>
+		<ul>
+			<li><img src="pictures/js.png" style="float: right; width: 200px;">Java Script</li>
+			<li><img src="pictures/pug.png" style="float: right; width: 150px; padding-right: 20px;">Pug</li>			
+		</ul>
 	</section>
 
-	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
+	<section class="slide" id="10">
+		<h2>Спасибо за внимание!</h2>
+		<div class="container">
+			<div>
+				<img src="pictures/Vitaly.jpg">
+				<p>Виталий Черков</p>
+				<a href="https://github.com/VitalyCherkov">github.com/VitalyCherkov</a>
+			</div>
 
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
+			<div>
+				<img src="pictures/Vlad.jpg">
+				<p>Владислав Бусов</p>
+				<a href="https://github.com/vladbusov">github.com/vladbusov</a>
+			</div>
 
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
-	</section>
+			<div>
+				<img src="pictures/Ivan.jpg">
+				<p>Иван Шпорт</p>
+				<a href="https://github.com/IvanShport">github.com/IvanShport</a>
+			</div>
 
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
-		</h2>
-		<style>
-			#see-more h2 {
-				font-size:100px
-				}
-			#see-more img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</section>
+		</div>
 
-	<footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer>
+	</section>
 
 	<div class="progress"></div>
 
 	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2018 Yours Truly, Famous Inc. -->
 
 </body>
 </html>

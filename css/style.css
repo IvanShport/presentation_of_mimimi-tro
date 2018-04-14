@@ -1,0 +1,68 @@
+#cover h2 {
+    margin:20px 0 0;
+    color:#FFF;
+    text-align:center;
+    font-size:70px;
+}
+
+#cover p {
+    margin:10px 0 0;
+    text-align:center;
+    color:#FFF;
+    font-style:italic;
+    font-size:20px;
+}
+
+#cover p a {
+    color:#FFF;
+}
+
+#cover_cat {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+#cover_metro {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    width: 250px;
+}
+
+#bad_metro {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+#good_metro {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+#img_6 {
+    width: 450px;
+    float: right;
+}
+
+#techn {
+    width: 650px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container a {
+    font-size: 15px;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;;
+    /* background-image: url(pictures/Vlad.jpg); */
+    border-radius: 50%;
+}
